@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9DDA5C154E31000053EC0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9DDA5B154E31000053EC0A /* UIKit.framework */; };
+		0D9DDA5E154E31000053EC0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9DDA5D154E31000053EC0A /* Foundation.framework */; };
+		0D9DDA60154E31000053EC0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9DDA5F154E31000053EC0A /* CoreGraphics.framework */; };
+		0D9DDA66154E31000053EC0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D9DDA64154E31000053EC0A /* InfoPlist.strings */; };
+		0D9DDA68154E31000053EC0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DDA67154E31000053EC0A /* main.m */; };
+		0D9DDA6C154E31000053EC0A /* kasokuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DDA6B154E31000053EC0A /* kasokuAppDelegate.m */; };
+		0D9DDA6F154E31000053EC0A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9DDA6D154E31000053EC0A /* MainStoryboard_iPhone.storyboard */; };
+		0D9DDA72154E31000053EC0A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9DDA70154E31000053EC0A /* MainStoryboard_iPad.storyboard */; };
+		0D9DDA75154E31000053EC0A /* kasokuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DDA74154E31000053EC0A /* kasokuViewController.m */; };
+		0D9DDA7D154E31000053EC0A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9DDA7C154E31000053EC0A /* SenTestingKit.framework */; };
+		0D9DDA7E154E31000053EC0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9DDA5B154E31000053EC0A /* UIKit.framework */; };
+		0D9DDA7F154E31000053EC0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9DDA5D154E31000053EC0A /* Foundation.framework */; };
+		0D9DDA87154E31000053EC0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D9DDA85154E31000053EC0A /* InfoPlist.strings */; };
+		0D9DDA8A154E31010053EC0A /* KasokuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DDA89154E31010053EC0A /* KasokuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D9DDA80154E31000053EC0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D9DDA4E154E30FF0053EC0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D9DDA56154E31000053EC0A;
+			remoteInfo = Kasoku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D9DDA57154E31000053EC0A /* Kasoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kasoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9DDA5B154E31000053EC0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D9DDA5D154E31000053EC0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D9DDA5F154E31000053EC0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0D9DDA63154E31000053EC0A /* Kasoku-Info.plist */ = {isa = PBXFileReference; path = "Kasoku-Info.plist"; sourceTree = "<group>"; };
+		0D9DDA65154E31000053EC0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D9DDA67154E31000053EC0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D9DDA69154E31000053EC0A /* Kasoku-Prefix.pch */ = {isa = PBXFileReference; path = "Kasoku-Prefix.pch"; sourceTree = "<group>"; };
+		0D9DDA6A154E31000053EC0A /* kasokuAppDelegate.h */ = {isa = PBXFileReference; path = kasokuAppDelegate.h; sourceTree = "<group>"; };
+		0D9DDA6B154E31000053EC0A /* kasokuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kasokuAppDelegate.m; sourceTree = "<group>"; };
+		0D9DDA6E154E31000053EC0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		0D9DDA71154E31000053EC0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		0D9DDA73154E31000053EC0A /* kasokuViewController.h */ = {isa = PBXFileReference; path = kasokuViewController.h; sourceTree = "<group>"; };
+		0D9DDA74154E31000053EC0A /* kasokuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kasokuViewController.m; sourceTree = "<group>"; };
+		0D9DDA7B154E31000053EC0A /* KasokuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KasokuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9DDA7C154E31000053EC0A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0D9DDA84154E31000053EC0A /* KasokuTests-Info.plist */ = {isa = PBXFileReference; path = "KasokuTests-Info.plist"; sourceTree = "<group>"; };
+		0D9DDA86154E31000053EC0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D9DDA88154E31000053EC0A /* KasokuTests.h */ = {isa = PBXFileReference; path = KasokuTests.h; sourceTree = "<group>"; };
+		0D9DDA89154E31010053EC0A /* KasokuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KasokuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D9DDA54154E31000053EC0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9DDA5C154E31000053EC0A /* UIKit.framework in Frameworks */,
+				0D9DDA5E154E31000053EC0A /* Foundation.framework in Frameworks */,
+				0D9DDA60154E31000053EC0A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9DDA77154E31000053EC0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9DDA7D154E31000053EC0A /* SenTestingKit.framework in Frameworks */,
+				0D9DDA7E154E31000053EC0A /* UIKit.framework in Frameworks */,
+				0D9DDA7F154E31000053EC0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9DDA4C154E30FF0053EC0A = {
+			isa = PBXGroup;
+			children = (
+				0D9DDA61154E31000053EC0A /* Kasoku */,
+				0D9DDA82154E31000053EC0A /* KasokuTests */,
+				0D9DDA5A154E31000053EC0A /* Frameworks */,
+				0D9DDA58154E31000053EC0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D9DDA58154E31000053EC0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D9DDA57154E31000053EC0A /* Kasoku.app */,
+				0D9DDA7B154E31000053EC0A /* KasokuTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D9DDA5A154E31000053EC0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D9DDA5B154E31000053EC0A /* UIKit.framework */,
+				0D9DDA5D154E31000053EC0A /* Foundation.framework */,
+				0D9DDA5F154E31000053EC0A /* CoreGraphics.framework */,
+				0D9DDA7C154E31000053EC0A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D9DDA61154E31000053EC0A /* Kasoku */ = {
+			isa = PBXGroup;
+			children = (
+				0D9DDA6A154E31000053EC0A /* kasokuAppDelegate.h */,
+				0D9DDA6B154E31000053EC0A /* kasokuAppDelegate.m */,
+				0D9DDA6D154E31000053EC0A /* MainStoryboard_iPhone.storyboard */,
+				0D9DDA70154E31000053EC0A /* MainStoryboard_iPad.storyboard */,
+				0D9DDA73154E31000053EC0A /* kasokuViewController.h */,
+				0D9DDA74154E31000053EC0A /* kasokuViewController.m */,
+				0D9DDA62154E31000053EC0A /* Supporting Files */,
+			);
+			path = Kasoku;
+			sourceTree = "<group>";
+		};
+		0D9DDA62154E31000053EC0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D9DDA63154E31000053EC0A /* Kasoku-Info.plist */,
+				0D9DDA64154E31000053EC0A /* InfoPlist.strings */,
+				0D9DDA67154E31000053EC0A /* main.m */,
+				0D9DDA69154E31000053EC0A /* Kasoku-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D9DDA82154E31000053EC0A /* KasokuTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D9DDA88154E31000053EC0A /* KasokuTests.h */,
+				0D9DDA89154E31010053EC0A /* KasokuTests.m */,
+				0D9DDA83154E31000053EC0A /* Supporting Files */,
+			);
+			path = KasokuTests;
+			sourceTree = "<group>";
+		};
+		0D9DDA83154E31000053EC0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D9DDA84154E31000053EC0A /* KasokuTests-Info.plist */,
+				0D9DDA85154E31000053EC0A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D9DDA56154E31000053EC0A /* Kasoku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9DDA8D154E31010053EC0A /* Build configuration list for PBXNativeTarget "Kasoku" */;
+			buildPhases = (
+				0D9DDA53154E31000053EC0A /* Sources */,
+				0D9DDA54154E31000053EC0A /* Frameworks */,
+				0D9DDA55154E31000053EC0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kasoku;
+			productName = Kasoku;
+			productReference = 0D9DDA57154E31000053EC0A /* Kasoku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D9DDA7A154E31000053EC0A /* KasokuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9DDA90154E31010053EC0A /* Build configuration list for PBXNativeTarget "KasokuTests" */;
+			buildPhases = (
+				0D9DDA76154E31000053EC0A /* Sources */,
+				0D9DDA77154E31000053EC0A /* Frameworks */,
+				0D9DDA78154E31000053EC0A /* Resources */,
+				0D9DDA79154E31000053EC0A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D9DDA81154E31000053EC0A /* PBXTargetDependency */,
+			);
+			name = KasokuTests;
+			productName = KasokuTests;
+			productReference = 0D9DDA7B154E31000053EC0A /* KasokuTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D9DDA4E154E30FF0053EC0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = kasoku;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0D9DDA51154E30FF0053EC0A /* Build configuration list for PBXProject "Kasoku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D9DDA4C154E30FF0053EC0A;
+			productRefGroup = 0D9DDA58154E31000053EC0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D9DDA56154E31000053EC0A /* Kasoku */,
+				0D9DDA7A154E31000053EC0A /* KasokuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D9DDA55154E31000053EC0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9DDA66154E31000053EC0A /* InfoPlist.strings in Resources */,
+				0D9DDA6F154E31000053EC0A /* MainStoryboard_iPhone.storyboard in Resources */,
+				0D9DDA72154E31000053EC0A /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9DDA78154E31000053EC0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9DDA87154E31000053EC0A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D9DDA79154E31000053EC0A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D9DDA53154E31000053EC0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9DDA68154E31000053EC0A /* main.m in Sources */,
+				0D9DDA6C154E31000053EC0A /* kasokuAppDelegate.m in Sources */,
+				0D9DDA75154E31000053EC0A /* kasokuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9DDA76154E31000053EC0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9DDA8A154E31010053EC0A /* KasokuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D9DDA81154E31000053EC0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D9DDA56154E31000053EC0A /* Kasoku */;
+			targetProxy = 0D9DDA80154E31000053EC0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D9DDA64154E31000053EC0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D9DDA65154E31000053EC0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0D9DDA6D154E31000053EC0A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D9DDA6E154E31000053EC0A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0D9DDA70154E31000053EC0A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D9DDA71154E31000053EC0A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0D9DDA85154E31000053EC0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D9DDA86154E31000053EC0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D9DDA8B154E31010053EC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D9DDA8C154E31010053EC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D9DDA8E154E31010053EC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kasoku/Kasoku-Prefix.pch";
+				INFOPLIST_FILE = "Kasoku/Kasoku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D9DDA8F154E31010053EC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kasoku/Kasoku-Prefix.pch";
+				INFOPLIST_FILE = "Kasoku/Kasoku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0D9DDA91154E31010053EC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kasoku.app/Kasoku";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kasoku/Kasoku-Prefix.pch";
+				INFOPLIST_FILE = "KasokuTests/KasokuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0D9DDA92154E31010053EC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kasoku.app/Kasoku";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kasoku/Kasoku-Prefix.pch";
+				INFOPLIST_FILE = "KasokuTests/KasokuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D9DDA51154E30FF0053EC0A /* Build configuration list for PBXProject "Kasoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9DDA8B154E31010053EC0A /* Debug */,
+				0D9DDA8C154E31010053EC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D9DDA8D154E31010053EC0A /* Build configuration list for PBXNativeTarget "Kasoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9DDA8E154E31010053EC0A /* Debug */,
+				0D9DDA8F154E31010053EC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D9DDA90154E31010053EC0A /* Build configuration list for PBXNativeTarget "KasokuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9DDA91154E31010053EC0A /* Debug */,
+				0D9DDA92154E31010053EC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D9DDA4E154E30FF0053EC0A /* Project object */;
+}
