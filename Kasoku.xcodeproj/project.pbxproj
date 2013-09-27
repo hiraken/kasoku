@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D9C419A154E6583005E5BBC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9C4199154E6583005E5BBC /* AudioToolbox.framework */; };
 		0D9DDA5C154E31000053EC0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9DDA5B154E31000053EC0A /* UIKit.framework */; };
 		0D9DDA5E154E31000053EC0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9DDA5D154E31000053EC0A /* Foundation.framework */; };
 		0D9DDA60154E31000053EC0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9DDA5F154E31000053EC0A /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 		0D9DDA7F154E31000053EC0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9DDA5D154E31000053EC0A /* Foundation.framework */; };
 		0D9DDA87154E31000053EC0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D9DDA85154E31000053EC0A /* InfoPlist.strings */; };
 		0D9DDA8A154E31010053EC0A /* KasokuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DDA89154E31010053EC0A /* KasokuTests.m */; };
+		0D9DDA94154E31D80053EC0A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9DDA93154E31D80053EC0A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,26 +36,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D9C4199154E6583005E5BBC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		0D9DDA57154E31000053EC0A /* Kasoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kasoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9DDA5B154E31000053EC0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0D9DDA5D154E31000053EC0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0D9DDA5F154E31000053EC0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0D9DDA63154E31000053EC0A /* Kasoku-Info.plist */ = {isa = PBXFileReference; path = "Kasoku-Info.plist"; sourceTree = "<group>"; };
+		0D9DDA63154E31000053EC0A /* Kasoku-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kasoku-Info.plist"; sourceTree = "<group>"; };
 		0D9DDA65154E31000053EC0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D9DDA67154E31000053EC0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D9DDA69154E31000053EC0A /* Kasoku-Prefix.pch */ = {isa = PBXFileReference; path = "Kasoku-Prefix.pch"; sourceTree = "<group>"; };
-		0D9DDA6A154E31000053EC0A /* kasokuAppDelegate.h */ = {isa = PBXFileReference; path = kasokuAppDelegate.h; sourceTree = "<group>"; };
+		0D9DDA69154E31000053EC0A /* Kasoku-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kasoku-Prefix.pch"; sourceTree = "<group>"; };
+		0D9DDA6A154E31000053EC0A /* kasokuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kasokuAppDelegate.h; sourceTree = "<group>"; };
 		0D9DDA6B154E31000053EC0A /* kasokuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kasokuAppDelegate.m; sourceTree = "<group>"; };
 		0D9DDA6E154E31000053EC0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		0D9DDA71154E31000053EC0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		0D9DDA73154E31000053EC0A /* kasokuViewController.h */ = {isa = PBXFileReference; path = kasokuViewController.h; sourceTree = "<group>"; };
+		0D9DDA73154E31000053EC0A /* kasokuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kasokuViewController.h; sourceTree = "<group>"; };
 		0D9DDA74154E31000053EC0A /* kasokuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kasokuViewController.m; sourceTree = "<group>"; };
 		0D9DDA7B154E31000053EC0A /* KasokuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KasokuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9DDA7C154E31000053EC0A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0D9DDA84154E31000053EC0A /* KasokuTests-Info.plist */ = {isa = PBXFileReference; path = "KasokuTests-Info.plist"; sourceTree = "<group>"; };
+		0D9DDA84154E31000053EC0A /* KasokuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KasokuTests-Info.plist"; sourceTree = "<group>"; };
 		0D9DDA86154E31000053EC0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0D9DDA88154E31000053EC0A /* KasokuTests.h */ = {isa = PBXFileReference; path = KasokuTests.h; sourceTree = "<group>"; };
+		0D9DDA88154E31000053EC0A /* KasokuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KasokuTests.h; sourceTree = "<group>"; };
 		0D9DDA89154E31010053EC0A /* KasokuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KasokuTests.m; sourceTree = "<group>"; };
+		0D9DDA93154E31D80053EC0A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9C419A154E6583005E5BBC /* AudioToolbox.framework in Frameworks */,
+				0D9DDA94154E31D80053EC0A /* CoreLocation.framework in Frameworks */,
 				0D9DDA5C154E31000053EC0A /* UIKit.framework in Frameworks */,
 				0D9DDA5E154E31000053EC0A /* Foundation.framework in Frameworks */,
 				0D9DDA60154E31000053EC0A /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +89,8 @@
 		0D9DDA4C154E30FF0053EC0A = {
 			isa = PBXGroup;
 			children = (
+				0D9C4199154E6583005E5BBC /* AudioToolbox.framework */,
+				0D9DDA93154E31D80053EC0A /* CoreLocation.framework */,
 				0D9DDA61154E31000053EC0A /* Kasoku */,
 				0D9DDA82154E31000053EC0A /* KasokuTests */,
 				0D9DDA5A154E31000053EC0A /* Frameworks */,
@@ -444,6 +452,7 @@
 				0D9DDA8F154E31010053EC0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D9DDA90154E31010053EC0A /* Build configuration list for PBXNativeTarget "KasokuTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +461,7 @@
 				0D9DDA92154E31010053EC0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

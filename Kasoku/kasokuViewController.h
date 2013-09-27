@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioServices.h>
 
-@interface kasokuViewController : UIViewController
+@interface kasokuViewController : UIViewController <UIAccelerometerDelegate>{
+    
+    IBOutlet UITextField *te1;
+}
 
 @end

@@ -12,6 +12,34 @@
 
 @synthesize window = _window;
 
+- (void)applicationDidFinishLaunching:(UIApplication *)application {    
+
+[window makeKeyAndVisible];
+
+// CLLocationManagerのインスタンスを作成
+CLLocationManager *locationManager = [[CLLocationManager alloc] init];
+//if ([locationManager locationServicesEnabled]) {
+    // ロケーションサービスが利用できる場合
+    locationManager.delegate = self;
+    [locationManager startUpdatingLocation];
+//} else {
+    // ロケーションサービスが利用できない場合
+//}
+}
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
+	// 緯度経度取得に成功した場合
+	CLLocationCoordinate2D coordinate = newLocation.coordinate;
+	
+	CLLocationDegrees latitude = coordinate.latitude;	// 緯度
+	CLLocationDegrees longitude = coordinate.longitude;	// 経度
+    
+	// 試しにNSLogで出力
+	NSLog(@"%f,%f", latitude, longitude);
+}
+
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.

@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface kasokuAppDelegate : UIResponder <UIApplicationDelegate>
+
+@interface kasokuAppDelegate : UIResponder <UIApplicationDelegate ,CLLocationManagerDelegate> {
+    UIWindow *window;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
